@@ -34,8 +34,8 @@ cask "rererepo" do
 
   caveats <<~EOS
     rererepo is free, provided AS IS on a best-effort basis (no SLA).
-      Terms:   https://rererepo.com/eula.html
-      Privacy: https://rererepo.com/privacy.html
+      Terms:   https://rererepo.com/eula
+      Privacy: https://rererepo.com/privacy
 
     While rererepo is on the canary channel (0.x) the bundle is named
     "rererepo-canary.app". Your GitHub token lives in the macOS Keychain
