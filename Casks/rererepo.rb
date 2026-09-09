@@ -21,7 +21,8 @@ cask "rererepo" do
 
   # The app updates itself (verified auto-update); `brew upgrade` skips it unless --greedy.
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  # Symbol form = "this version or newer" (Homebrew ≥ 5.1.11); the string form is deprecated.
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "rererepo-canary.app"
